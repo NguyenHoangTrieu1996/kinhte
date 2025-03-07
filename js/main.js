@@ -56,13 +56,14 @@ document.getElementById('changeLang').onclick = () => {
 // Chang Page
 
 const button = document.getElementById('changePage');
-const links = document.querySelectorAll('a');
+const links = document.querySelectorAll('.navigation');
 const spans = document.querySelectorAll('span');
 button.addEventListener('click', function () {
     // Kiểm tra giá trị hiện tại của nút và chuyển đổi giữa 'open' và 'close'
     if (button.value === 'open') {
         button.value = 'close';
         links.forEach(link => {
+            
             link.classList.add('hidden');
         });
         spans.forEach(span => {
@@ -80,5 +81,7 @@ button.addEventListener('click', function () {
         });
     }
 });
+
+
 
 

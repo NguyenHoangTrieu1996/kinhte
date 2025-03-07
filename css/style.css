@@ -267,7 +267,11 @@ body {
 }
 
 #nongnghiep .overlay{
-    height: 9765px;
+    height: 10137px;
+}
+
+#congnghiep {
+    height: 100vh;
 }
 
 .logo {
@@ -318,3 +322,58 @@ body {
     padding-bottom: 150px;
 }
 
+
+
+
+.portlofio {
+    margin-top: 7%;
+}
+
+.portlofio a{
+    text-decoration: none;
+    color: #000; 
+}
+
+.frame {
+    width: 80%;
+    margin: auto;
+}
+
+.portlofio-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.portlofio-box{
+    border-radius: 10px;
+    background-color: #ffffffb3;
+    position: relative;
+    padding: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.portlofio-box:first-of-type {
+    grid-column: 1/ 3;
+}
+
+.portlofio-box:nth-child(2){
+    grid-column: 3/ 4;
+}
+
+.portlofio-box:nth-child(3)  {
+    grid-column: 1;
+}
+
+.portlofio-box:nth-child(4){
+    grid-column: 2/4;
+}
+.portlofio-box:nth-child(5) {
+    grid-column: 1/ 3;
+}
+.portlofio-box:nth-child(6) {
+    grid-column: 3/ 4;
+}
