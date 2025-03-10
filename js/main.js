@@ -83,5 +83,10 @@ button.addEventListener('click', function () {
 });
 
 
+//Back Page
+function goBack() {
+    window.history.back(); // Quay lại trang trước đó
+}
+
 
 
